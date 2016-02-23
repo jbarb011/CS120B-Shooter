@@ -120,6 +120,8 @@ void SM_Full(void) {
     case Menu_lcd:
       break;
     case Gameplay_lcd:
+      SM_score();
+      SM_life();
       break;
     case GameOver_lcd:
       break;
